@@ -1,0 +1,27 @@
+.rhomb{
+  width: 75px;
+  height: 75px;
+  transform: rotate(45deg);
+  position: absolute;
+}
+.unmove{
+  border: 3px dashed black;
+}
+.yellow{
+  background-color: yellow;
+}
+.violet{
+  background-color: violet;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+.pink{
+  background-color: pink;
+}

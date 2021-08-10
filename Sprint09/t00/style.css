@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(135deg,rgb(53,57,137), rgb(151,54,140), rgb(223,56,95),rgb(225,88,68))  center center fixed;
+    background-size: cover;
+}
+.body_signUP {
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 20%;
+    padding: 25px;
+}
+input {
+    margin: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom-color: lightgray;
+    font-size: 20px;
+    background: none;
+}
+#sign_button {
+    justify-items: center;
+    border: none;
+    color: rgb(17, 233, 71);
+    font-size: 32px;
+    display:block;
+    position: relative;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+::placeholder {
+    color: white;
+}

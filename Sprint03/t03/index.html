@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <h1 style="text-align: center;">Супергерой</h1>
+    <div id="normal_human">
+        <img src="./assets/images/man-waiting_23-2147646455.jpg">
+        <p class="Properties">Properties:</p>
+        <br>
+        <p class="Properties">First Name: <span id="fstName"></span></p>
+        <p class="Properties">Last Name: <span id="ScndName"></span></p>
+        <p class="Properties">Gender: <span id="gender"></span></p>
+        <p class="Properties">Age: <span id="age"></span></p>
+        <p class="Properties">Calories: <span id="calor"></span></p>
+        <p class="Properties">Status: <span id="status"></span></p>
+        <button class="Properties" id="SuprButton" onclick="Upgrade(waiting_human)">Turn Into Superhero!</button> 
+        <br>
+        <br>
+        <button class="Properties" id="feed" onclick="waiting_human.feed()">Feed</button>
+        <br>
+        <br>
+        <button class="Properties" id="sleep" onclick="waiting_human.sleepFor()">Sleep</button>
+        <input class="Properties" type="number" min="1" max="100" id="sleep_secs">
+    </div>
+
+    <div id="superhero">
+        <img src="./assets/images/9b3619cb08ac9b014b38944f0cab88a0.jpg">
+        <p class="Properties">Properties:</p>
+        <br>
+        <p class="Properties">First Name: <span id="fstName_s"></span></p>
+        <p class="Properties">Last Name: <span id="ScndName_s"></span></p>
+        <p class="Properties">Gender: <span id="gender_s"></span></p>
+        <p class="Properties">Age: <span id="age_s"></span></p>
+        <p class="Properties">Calories: <span id="calor_s"></span></p>
+        <p class="Properties">Status: <span id="status_s"></span></p>
+        <button class="Properties" id="feed_s" onclick="zhdun.feed()">Feed</button>
+        <br>
+        <br>
+        <button class="Properties" id="sleep_s" onclick="zhdun.sleepFor()">Sleep</button>
+        <input class="Properties" type="number" min="1" max="100" id="sleep_secs_s">
+        <br>
+        <br>
+        <button class="Properties" id="fly_s" onclick="zhdun.fly()">Fly</button>
+        <button class="Properties" id="fight_s" onclick="zhdun.fightWithEvil()">Fight with Evil</button>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

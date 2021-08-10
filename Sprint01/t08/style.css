@@ -1,0 +1,19 @@
+.circle {
+    margin-top: 25%;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    animation: cicrcle_moving 4s linear 0s infinite alternate-reverse;
+}
+
+.circle:hover {
+    background-color: red;
+    transition: all ease 2s;
+}
+
+@keyframes cicrcle_moving {
+    from {
+        margin-left: calc(100% - 260px);
+    }
+}

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^index\.php$ [NC]
+RewriteRule ^(.*)$ /Router.php/? [L,R=301]
+Redirect http://localhost:3000/t03/index.php/?data=somedata&filter=somefilter   

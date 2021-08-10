@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+}
+div {
+    display: flex;
+    padding-right: 10px;
+}
+input {
+    color: green;
+    border: 1px solid blue;
+    border-radius: 3px;
+    height: 2em;
+    width: 100%;
+}
+input:hover {
+    color:red;
+}
+button {
+    border-radius: 3px;
+    color: green;
+}
+button:hover{
+    color:red;
+}

@@ -1,0 +1,43 @@
+body {
+    padding-top: 50px;
+}
+.Super_hero {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+p{
+    text-align: right;
+    font-family: Verdana;
+}
+.alias {
+    color: white;
+    font-size: 12px;
+}
+.real_name {
+    color: rgba(255, 255,255, 0.5);
+    font-size: 9px;
+}
+img {
+    height: 182px;
+    position: relative;
+    bottom: 112px;
+}
+#spider_man_img {
+    bottom: 70px;
+}
+#Capitan-America {
+    background: linear-gradient(180deg, #4568DC, #B06AB3);
+}
+#Iron-man {
+    background: linear-gradient(180deg, #e52d27, #b31217);
+}
+#Black-Widow {
+    background: linear-gradient(90deg, #000, #61045F);
+}
+#Spider-man {
+    background: linear-gradient(180deg, #e52d27, #000);
+}

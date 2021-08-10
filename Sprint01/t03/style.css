@@ -1,0 +1,38 @@
+h1 {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.List {
+    height: 50px;
+    width: 150px;
+    background-color: lightgray;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.fst_level {
+    display: inline-block;
+    position: absolute;
+}
+#Second_one {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 1000px;
+}
+.scnd_level, .thrd_level {
+    display: none;
+}
+.fst_level:hover .scnd_level{
+    display: flex;
+}
+.scnd_level:hover .thrd_level{
+    display: inline-block;
+    margin-left: -0px;
+}
+.List:hover {
+    background-color: darkred;
+    color: white;
+}

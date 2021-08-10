@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+#main_div {
+    border: 1px solid lightgray;
+    margin: 0px 3%;
+    border-radius: 15px;
+    height: fit-content;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+#header_div {
+    background-color: rgb(135, 155, 211);
+    color: white;
+    border-radius: 13px 13px 0px 0px;
+    padding: 12px 0px;
+}
+#City {
+    font-size: larger;
+    font-weight: 900;
+}
+#days_div{
+    /* border: 2px solid black; */
+    display: inline-flex;
+}
+.day {
+    /* display: block; */
+    /* border: 2px solid black; */
+    padding: 15px 0px;
+}
+.degrees{
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 23px;
+}
+.date{
+    border-bottom: 2px solid aqua;
+    
+    font-weight: bolder;
+    font-size: 19px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}

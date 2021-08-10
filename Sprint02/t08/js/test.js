@@ -1,0 +1,17 @@
+//-
+console.log(checkBrackets(NaN))
+console.log(checkBrackets(4))
+console.log(checkBrackets(null))
+console.log(checkBrackets(true))
+console.log(checkBrackets(Infinity))
+//+
+console.log(checkBrackets('())()(())fthfth))()(())(()'))
+console.log(checkBrackets('))))fhthfht)((((('))
+console.log(checkBrackets('(1)(fawdawdthf((t2)(3)'))
+console.log(checkBrackets(')1(2)((fthf)))))thft1('))
+console.log(checkBrackets('))((awdawd())))'))
+console.log(checkBrackets('(awaw4564565((((dawd(('))
+console.log(checkBrackets('()()()()f)))thfthhfth()eaafewaf()()()()()()'))
+console.log(checkBrackets('123894d))4qw894dqw('))
+console.log(checkBrackets('(awd(((awd)'))
+console.log(checkBrackets(')((fthhhft))('))

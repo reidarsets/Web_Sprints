@@ -1,0 +1,16 @@
+img {
+    width: 15%;/*15*/
+    display: block;
+}
+.Properties {
+    position: relative;
+    left: 31%;
+    bottom: 460px;
+    position: static;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+#superhero {
+    display: none;
+}

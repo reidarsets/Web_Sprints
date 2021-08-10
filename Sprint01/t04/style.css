@@ -1,0 +1,33 @@
+@media (min-width: 320px) {
+    .subtopic {
+        width: calc(80%);
+    }
+}
+
+@media (min-width: 768px) {
+    .subtopic {
+        width: calc(40%);
+    }
+}
+
+@media (min-width: 1024px) {
+    .subtopic {
+        width: calc(20%);
+    }
+}
+h1 {
+    text-align: center;
+}
+.subtopic {
+    border: 2px solid lightgray;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.example {
+    margin: 5px;
+}
+.main_divs {
+    display: flex;
+    flex-wrap: wrap;
+}
